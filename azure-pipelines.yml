@@ -1,12 +1,6 @@
-trigger:
-  batch: true
-  branches:
-    include: []
+trigger: none
 pr:
-  autoCancel: true
-  branches:
-    include:
-    - rc/*
+- rc/*
 
 jobs:
 - template: ./.azure/azure-nightly-template-osx.yml
