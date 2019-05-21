@@ -1,6 +1,5 @@
 trigger: none
 pr:
-  autoCancel: true
   branches:
     include:
     - rc/*
