@@ -10,3 +10,4 @@ pr:
 ```
 
 Above rule doesn't trigger any CI for PR's.
+TEst
